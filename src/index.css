@@ -21,13 +21,14 @@ body {
   color: white;
 }
 .noteContainer {
-  border: 1px solid rgb(0, 0, 3);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
   display: flex;
   flex-direction: column;
   width: 200px;
   place-items: center;
   margin-top: 20px;
-  background-color: white;
+  background-color: #fff;
 }
 
 footer {
