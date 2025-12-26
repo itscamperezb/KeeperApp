@@ -5,11 +5,17 @@ import "./App.css";
 import Header from "./Header";
 import Note from "./note";
 import Footer from "./footer";
+import notes from "./notes";
+
+function createNotes(noteItem) {
+  return <Note title={noteItem.title} content={noteItem.content} />;
+}
+
 function App() {
   return (
     <div className="container">
       <Header />
-      <Note />
+      <div className="contentContainer">{notes.map(createNotes)}</div>
       <Footer />
     </div>
   );
