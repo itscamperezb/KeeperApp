@@ -31,7 +31,16 @@ body {
   margin-top: 20px;
   background-color: #fff;
 }
+.noteContainer button {
+  background: none;
+  color: #f5ba13;
+  border: none;
+  cursor: pointer;
+}
 
+.noteContainer button:hover {
+  color: #9e7810;
+}
 .contentContainer {
   display: flex;
   gap: 30px;

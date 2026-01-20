@@ -1,0 +1,56 @@
+.containerTextArea {
+  height: 25%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0;
+  background-color: whitesmoke;
+}
+
+form input {
+  height: 20px;
+  border: none;
+  font-family: "Mclaren", sans-serif;
+  background: none;
+  height: 25%;
+  width: 95%;
+  margin: 10px;
+}
+
+form textarea {
+  font-family: "Mclaren", sans-serif;
+  background: none;
+  width: 95%;
+  margin: 10px;
+  border: none;
+  resize: none;
+}
+
+form button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 80%;
+  top: 90%;
+  border-radius: 50%;
+  border: none;
+  font-family: "Mclaren", sans-serif;
+  background-color: #f5ba13;
+}
+
+form button:hover {
+  background-color: #cb9a15;
+  cursor: pointer;
+}
